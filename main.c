@@ -15,7 +15,7 @@ int main() {
         kapital = kapital + ( kapital /100 * ZINS );
         printf("Kapital: %7.2fEUR",kapital);
     }
-    printf("\n\nAus %7.2f EUR Grundkapital\n",GRUNDKAPITAL);
+    printf("\n\nAus %7.2f EURO Grundkapital\n",GRUNDKAPITAL);
     printf("wurden in %d Jahren %7.2f EUR\n",LAUFZEIT ,kapital);
     return 0;
 }
